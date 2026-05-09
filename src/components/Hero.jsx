@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="section">
       <div className="container">
         <div className="text-center mb-8">
-          <img src="/logo.png" alt="NF Contadora Pública" style={{ height: '136px', marginBottom: '2rem', filter: 'invert(1) drop-shadow(0 0 10px rgba(244, 114, 182, 0.8))' }} className="animate-pulse-glow" />
+          <img src="/logo.png" alt="NF Contadora Pública" style={{ height: '220px', marginBottom: '2rem' }} className="animate-pulse-glow" />
           <h1 className="text-gradient" style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', marginBottom: '1.5rem' }}>
             ¿Querés tener un asesoramiento personalizado?
           </h1>
