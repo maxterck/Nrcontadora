@@ -6,7 +6,7 @@ export default function Consultations() {
       <div className="container">
         <div className="grid-3">
           {/* Section 1: Presupuesto */}
-          <div className="glass-panel" style={{ padding: '2.5rem', gridColumn: 'span 2' }}>
+          <div className="glass-panel span-2" style={{ padding: 'clamp(1.5rem, 5vw, 2.5rem)' }}>
             <h2 className="mb-4 text-gradient">¿Necesitás cotizar un servicio mensual o realizar una inscripción?</h2>
             <p className="mb-4" style={{ color: 'var(--text-secondary)' }}>
               Trabajamos con distintos tipos de contribuyentes y estructuras.
@@ -25,7 +25,7 @@ export default function Consultations() {
           </div>
 
           {/* Section 2: Problemas puntuales */}
-          <div className="glass-panel" style={{ padding: '2.5rem' }}>
+          <div className="glass-panel" style={{ padding: 'clamp(1.5rem, 5vw, 2.5rem)' }}>
             <h2 className="mb-4" style={{ color: 'var(--accent-pink)' }}>¿Tenés algún problema con tu situación impositiva/contable que quieras resolver?</h2>
             <p className="mb-4" style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
               Por ejemplo, nunca te inscribiste en ingresos brutos y te enteraste tiempo después que es obligatorio, o tal vez tenés deuda por resolver. Pedir este presupuesto es para resolver un inconveniente puntual que te tiene preocupadx!

@@ -9,15 +9,17 @@ export default function Hero() {
           <h1 className="text-gradient" style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', marginBottom: '1.5rem' }}>
             ¿Querés tener un asesoramiento personalizado?
           </h1>
-          <p className="glass-panel" style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto', fontSize: '1.1rem', color: 'var(--text-secondary)' }}>
+          <p className="glass-panel" style={{ padding: 'clamp(1.5rem, 5vw, 2.5rem)', maxWidth: '800px', margin: '0 auto', fontSize: '1.1rem', color: 'var(--text-secondary)' }}>
             Tenemos tres modalidades distintas para que elijas la que mejor se adapte a vos. En todos los casos, el costo del asesoramiento en caso de seguir trabajando juntos se deduce de los trabajos siguientes.
             <br /><br />
             <strong>Las modalidades son las siguientes:</strong>
-            <ul style={{ listStyle: 'none', margin: '1rem 0' }}>
-              <li><span style={{ color: 'var(--accent-cyan)' }}>•</span> Chat por WhatsApp (audios y mensajes)</li>
-              <li><span style={{ color: 'var(--accent-yellow)' }}>•</span> Llamada</li>
-              <li><span style={{ color: 'var(--accent-pink)' }}>•</span> Videollamada</li>
-            </ul>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <ul style={{ listStyle: 'none', margin: '1rem 0', textAlign: 'left' }}>
+                <li style={{ marginBottom: '0.5rem' }}><span style={{ color: 'var(--accent-cyan)' }}>•</span> Chat por WhatsApp (audios y mensajes)</li>
+                <li style={{ marginBottom: '0.5rem' }}><span style={{ color: 'var(--accent-yellow)' }}>•</span> Llamada</li>
+                <li><span style={{ color: 'var(--accent-pink)' }}>•</span> Videollamada</li>
+              </ul>
+            </div>
             <span style={{ color: 'var(--text-primary)' }}>La duración en todos los casos es de media hora.</span>
             <br /><br />
             <em style={{ fontSize: '0.9rem', opacity: 0.8 }}>

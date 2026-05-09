@@ -13,7 +13,7 @@
 .booking-modal {
   width: 100%;
   max-width: 900px;
-  padding: 3rem;
+  padding: clamp(1.5rem, 5vw, 3rem);
   position: relative;
   max-height: 90vh;
   overflow-y: auto;
