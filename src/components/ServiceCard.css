@@ -9,7 +9,7 @@
 
 .service-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 12px 40px rgba(29, 53, 87, 0.1);
 }
 
 .card-icon-wrapper {
@@ -31,9 +31,9 @@
   opacity: 0.2;
 }
 
-.card-icon-wrapper[data-type="phone"]::before { background: var(--accent-yellow); }
-.card-icon-wrapper[data-type="whatsapp"]::before { background: var(--accent-cyan); }
-.card-icon-wrapper[data-type="video"]::before { background: var(--accent-pink); }
+.card-icon-wrapper[data-type="phone"]::before { background: var(--accent-secondary); }
+.card-icon-wrapper[data-type="whatsapp"]::before { background: var(--accent-tertiary); }
+.card-icon-wrapper[data-type="video"]::before { background: var(--accent-primary); }
 
 .card-title {
   font-size: 1.5rem;

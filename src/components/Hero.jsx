@@ -15,9 +15,9 @@ export default function Hero() {
             <strong>Las modalidades son las siguientes:</strong>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <ul style={{ listStyle: 'none', margin: '1rem 0', textAlign: 'left' }}>
-                <li style={{ marginBottom: '0.5rem' }}><span style={{ color: 'var(--accent-cyan)' }}>•</span> Chat por WhatsApp (audios y mensajes)</li>
-                <li style={{ marginBottom: '0.5rem' }}><span style={{ color: 'var(--accent-yellow)' }}>•</span> Llamada</li>
-                <li><span style={{ color: 'var(--accent-pink)' }}>•</span> Videollamada</li>
+                <li style={{ marginBottom: '0.5rem' }}><span style={{ color: 'var(--accent-tertiary)' }}>•</span> Chat por WhatsApp (audios y mensajes)</li>
+                <li style={{ marginBottom: '0.5rem' }}><span style={{ color: 'var(--accent-secondary)' }}>•</span> Llamada</li>
+                <li><span style={{ color: 'var(--accent-primary)' }}>•</span> Videollamada</li>
               </ul>
             </div>
             <span style={{ color: 'var(--text-primary)' }}>La duración en todos los casos es de media hora.</span>

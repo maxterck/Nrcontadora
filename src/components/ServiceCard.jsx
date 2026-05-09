@@ -3,9 +3,9 @@ import { Phone, MessageCircle, Video } from 'lucide-react';
 import './ServiceCard.css';
 
 const iconMap = {
-  phone: <Phone size={48} color="var(--accent-yellow)" />,
-  whatsapp: <MessageCircle size={48} color="var(--accent-cyan)" />,
-  video: <Video size={48} color="var(--accent-pink)" />
+  phone: <Phone size={48} color="var(--accent-secondary)" />,
+  whatsapp: <MessageCircle size={48} color="var(--accent-tertiary)" />,
+  video: <Video size={48} color="var(--accent-primary)" />
 };
 
 export default function ServiceCard({ title, type, duration, price, onBook }) {

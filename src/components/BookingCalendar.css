@@ -1,7 +1,7 @@
 .booking-modal-overlay {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(29, 53, 87, 0.4);
   backdrop-filter: blur(5px);
   display: flex;
   align-items: center;
@@ -32,7 +32,7 @@
 }
 
 .close-btn:hover {
-  color: var(--accent-pink);
+  color: var(--accent-primary);
 }
 
 .booking-grid {
@@ -99,13 +99,13 @@
 }
 
 .calendar-cell:hover:not(.empty) {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(29, 53, 87, 0.05);
 }
 
 .calendar-cell.selected {
-  background: var(--accent-pink);
+  background: var(--accent-primary);
   color: white;
-  box-shadow: 0 0 15px rgba(244, 114, 182, 0.5);
+  box-shadow: 0 0 15px rgba(29, 53, 87, 0.3);
 }
 
 .calendar-cell.empty {
@@ -129,8 +129,8 @@
 }
 
 .time-slot:hover {
-  border-color: var(--accent-cyan);
-  box-shadow: 0 0 10px rgba(34, 211, 238, 0.2);
+  border-color: var(--accent-tertiary);
+  box-shadow: 0 0 10px rgba(0, 180, 216, 0.2);
 }
 
 .details-section {
